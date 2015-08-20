@@ -1,0 +1,30 @@
+body {
+  background-color: transparent;
+  padding-top: 60px;
+}
+
+html {
+  background: url(../bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.ui.pointing.dropdown > .menu {
+  width: 100%;
+}
+
+.ui.dropdown .menu > .item {
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  font-size: 1.1rem;
+}
+
+.ui.dropdown .menu > .item > .text {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.ui.dropdown .item .left.dropdown.icon + .text, .ui.dropdown .left.menu .item .dropdown.icon + .text {
+  margin-left: 0;
+}
