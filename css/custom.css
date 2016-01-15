@@ -28,3 +28,7 @@ html {
 .ui.dropdown .item .left.dropdown.icon + .text, .ui.dropdown .left.menu .item .dropdown.icon + .text {
   margin-left: 0;
 }
+
+.ui.image {
+  max-width: 90% !important;
+}
